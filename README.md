@@ -13,11 +13,14 @@ feather icons as React components for react-oovui
 
 ### API props
 
-props | des | type | default 
-- | :-: | :-:  |:-: 
-type | icon type| String | --
-size | font-size| String or Number | 20
-color | color | String | #000000
+
+| props | des | type | default |
+| ----- | :-: | :-:  | :-:  |
+|type | icon type| String | --|
+|size | font-size| String or Number | 20|
+|color | color | String | #000000|
+
+
 
 ## see all type of icons:
 
