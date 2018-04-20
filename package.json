@@ -1,0 +1,50 @@
+{
+  "name": "@oovui/react-feather-icons",
+  "version": "0.0.3",
+  "description": "feather icons as React components for react-oovui",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:lib": "babel index.js -d lib",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --config webpack.config.js",
+    "build:docs": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "publish":"npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oovui/react-feather-icons.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "oovui",
+    "react",
+    "icons",
+    "feather",
+    "svg"
+  ],
+  "author": "itshizhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oovui/react-feather-icons/issues"
+  },
+  "homepage": "https://github.com/oovui/react-feather-icons#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.7.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "feather-icons": "^4.7.0"
+  }
+}
