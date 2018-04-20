@@ -1,6 +1,6 @@
 {
   "name": "@oovui/react-feather-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "feather icons as React components for react-oovui",
   "main": "lib/index.js",
   "scripts": {
@@ -45,7 +45,6 @@
     "webpack-dev-server": "^3.1.3"
   },
   "dependencies": {
-    "@oovui/react-feather-icons": "^0.1.0",
     "feather-icons": "^4.7.0"
   }
 }
