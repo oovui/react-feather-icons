@@ -1,6 +1,6 @@
 import React from 'react'
-import Icon from '@oovui/react-feather-icons';
-
+// import Icon from '@oovui/react-feather-icons';
+import Icon from '../lib/index'
 
 class App extends React.Component {
   render () {
@@ -8,6 +8,7 @@ class App extends React.Component {
 			<div>
 				<Icon type="x"/>
 				<Icon type ="circle" size="30" color="red"/ >
+				<Icon type ="grid" size="30" color="red"/ >
 			</div>
 		)
 	}
