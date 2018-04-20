@@ -1,19 +1,16 @@
 import React from 'react'
-// import Icon from '../lib/index';
-import Icon from 'react-feather-icons';
+import Icon from '@oovui/react-feather-icons';
+
 
 class App extends React.Component {
-
   render () {
     return (
 			<div>
-				测试文档
-				<hr/>
 				<Icon type="x"/>
+				<Icon type ="circle" size="30" color="red"/ >
 			</div>
 		)
 	}
 
 }
-
 export default App;
